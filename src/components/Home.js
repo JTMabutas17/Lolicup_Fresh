@@ -2,7 +2,7 @@ import React, { Component, Slide , useEffect} from 'react';
 
 export default class Header extends Component {
   Slideshow() {
-    const ads = [`url(../images/lollicup/Ads/delivery.jpg)`, `url(../images/lollicup/Ads/catering.jpg)`, `url(../images/lollicup/Ads/flavors.png)`];
+    const ads = [`./images/lollicup/Ads/delivery.jpg`, `url(./images/lollicup/Ads/catering.jpg)`, `url(./images/lollicup/Ads/flavors.png)`];
     const delay = 2500;
 
     const [index, setIndex] = React.useState(0);
