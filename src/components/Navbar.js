@@ -8,7 +8,7 @@ export default class Navbar extends Component {
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                     <ul id="nav" className="nav">
-                        <li><Link to="/"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px" title="Home Page"/></Link></li>
+                        <li><Link to="/Home"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px" title="Home Page"/></Link></li>
                         <li>
                             <a>Menu</a>
                             <ul>
@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                         <li><a>Account</a>
                             <ul>
                                 <li><Link to="/signin">Sign In</Link></li>
-                                <li><Link to="/">Sign Out</Link></li>
+                                <li><Link to="/Home">Sign Out</Link></li>
                                 <li><Link to="/CreateAccount">Create Account</Link></li>
                             </ul>
                         </li>

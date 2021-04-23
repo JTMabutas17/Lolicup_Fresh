@@ -67,7 +67,7 @@ export default class Checkout extends Component {
                     <input type="checkbox" checked="checked" name="sameadr" /> Shipping address same as billing
       </label>
                   <br />
-                  <Link to="/">
+                  <Link to="/Home">
                     <p className="btn" onclick="myFunction()">Finalize Order</p>
                   </Link>
                 </form>

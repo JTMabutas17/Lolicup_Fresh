@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 background: green;
-position: sticky;
+position: fixed;
 bottom: 0;
 width: 100%;
-height: 40px;
+height: 7%;
 
 
 @media (max-width: 1000px) {

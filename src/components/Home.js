@@ -2,7 +2,7 @@ import React, { Component, Slide , useEffect} from 'react';
 
 export default class Header extends Component {
   Slideshow() {
-    const ads = [`url(./images/lollicup/Ads/delivery.jpg`, `url(./images/lollicup/Ads/catering.jpg`, `url(./images/lollicup/Ads/flavors.png`];
+    const ads = [`url(../images/lollicup/Ads/delivery.jpg)`, `url(../images/lollicup/Ads/catering.jpg)`, `url(../images/lollicup/Ads/flavors.png)`];
     const delay = 2500;
 
     const [index, setIndex] = React.useState(0);
@@ -61,7 +61,7 @@ export default class Header extends Component {
         <br></br>
 
         <div className="about-container">
-          <img className="profile-picture" src="images/lollicup/Etc/lollicup-logo.png"/>
+          <img className="profile-picture" alt="lollicup logo" src="../images/lollicup/Etc/lollicup-logo.png"/>
           <div className="about-text-area">
             <h1>Our Mission</h1>
             <p>To deliver an exceptional dining experience by creating an eatery that is fun, fresh, and first-rate. <br></br>

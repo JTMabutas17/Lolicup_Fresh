@@ -34,6 +34,7 @@ export default class CreateAccount extends Component {
         return false;
     }
     else alert("Enter required fields.");
+    window.location.reload();
   }
   render() {
     return (
@@ -59,7 +60,7 @@ export default class CreateAccount extends Component {
                     <input type="date" id="dateOfBirth" name="dateOfBirth" /> 
                 </div>
                 <br/>
-                <button onClick={this.checkForm}><Link to="/CreateAccount">Create</Link></button>  
+                <button onClick={this.checkForm}><Link to="/Home">Create</Link></button>  
             </form>
         </div>
         </div>

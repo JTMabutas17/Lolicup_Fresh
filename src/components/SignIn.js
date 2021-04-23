@@ -25,6 +25,7 @@ export default class SignIn extends Component {
         return false;
     }
     else alert("Enter required fields.");
+    window.location.reload();
   }
 
   render() {
@@ -40,7 +41,7 @@ export default class SignIn extends Component {
                     <input type="text" id="username" name="username" /> <br/>
                     <label for="password" id="passwordLabel">Password:</label> <br/>
                     <input type="password" id="password" name="password" /> <br/>               
-                  <button onClick={this.checkSignIn}><Link to="/">Sign In</Link></button>   
+                  <button onClick={this.checkSignIn}><Link to="/Home">Sign In</Link></button>   
                 </div>
             </form>
         </div>
