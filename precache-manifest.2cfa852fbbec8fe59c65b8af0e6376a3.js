@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ce487ab54d852f558507f8fe2649972",
+    "revision": "4261a84b40502e21a6a286d02261b763",
     "url": "/Lolicup_Fresh/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lolicup_Fresh/static/css/2.3b8df3f8.chunk.css"
   },
   {
-    "revision": "f8bae56f38d3818f4f01",
+    "revision": "963bfba66ce73fac7fe7",
     "url": "/Lolicup_Fresh/static/css/main.e8986148.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lolicup_Fresh/static/js/2.f8c7059b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8bae56f38d3818f4f01",
-    "url": "/Lolicup_Fresh/static/js/main.09f3b25c.chunk.js"
+    "revision": "963bfba66ce73fac7fe7",
+    "url": "/Lolicup_Fresh/static/js/main.3c91139e.chunk.js"
   },
   {
     "revision": "ec0e97015531dca42fef",
