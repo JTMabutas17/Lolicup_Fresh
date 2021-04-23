@@ -15,17 +15,21 @@ export default class SignIn extends Component {
     var allLabels = [usernameLabel, passwordLabel];
     for(var i = 0; i < allInputs.length; i++) {
         allLabels[i].style.color = "black";
-        if(allInputs[i].value.length == 0) {
-            allLabels[i].style.color = "red";
-            success = false;
+        if(allInputs[i].value == "" || allInputs[i].value.length == 0) {
+          allLabels[i].style.color = "red";
+          success = false;
         }
     }
     if(success) {
-        alert("Success!");
-        return false;
+      alert("Signed in!");
     }
-    else alert("Enter required fields.");
-    window.location.reload();
+    else {
+      alert("Enter required fields.");
+      window.location.reload();
+      for(var i = 0; i < allInputs.length; i++) {
+        allInputs[i].value = "";
+      }
+    }
   }
 
   render() {

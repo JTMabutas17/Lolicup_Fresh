@@ -48,6 +48,10 @@ export default class DrinkBase extends Component {
             </form>
           </div>
 
+          <p className="scrolldown">
+               <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
+            </p>
+
         <div className="btn-container">
           <Link to="/DrinkFlavor">
             <p className="btn" onclick="myFunction()">Next Step</p>

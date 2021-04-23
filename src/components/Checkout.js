@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 export default class Checkout extends Component {
+  received(){alert("Order Received!");}
   render() {
     return (
       <section id="checkout">
@@ -66,9 +67,8 @@ export default class Checkout extends Component {
                   <label>
                     <input type="checkbox" checked="checked" name="sameadr" /> Shipping address same as billing
       </label>
-                  <br />
                   <Link to="/Home">
-                    <p className="btn" onclick="myFunction()">Finalize Order</p>
+                    <p className="btn" onClick={this.received}>Finalize Order</p>
                   </Link>
                 </form>
               </div>
@@ -82,10 +82,10 @@ export default class Checkout extends Component {
                     <b>4</b>
                   </span>
                 </h4>
-                <p style={{ paddingTop: "10px" }}><a href="#">Mango Green Tea</a> <span className="price">$5</span></p>
-                <p><a href="#">Thai Tea</a> <span className="price">$5</span></p>
-                <p><a href="#">Black Tea</a> <span className="price">$3</span></p>
-                <p><a href="#">Oolong Milk Tea</a> <span className="price">$4</span></p>
+                <p style={{ paddingTop: "10px" }}><a href="#" style={{ color: "blue" }}>Mango Green Tea</a> <span className="price">$5</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Thai Tea</a> <span className="price">$5</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Black Tea</a> <span className="price">$3</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Oolong Milk Tea</a> <span className="price">$4</span></p>
                 <hr />
                 <p>Total <span class="price" style={{ color: "black" }}><b>$17</b></span></p>
               </div>

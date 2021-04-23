@@ -61,7 +61,7 @@ export default class Header extends Component {
         <br></br>
 
         <div className="about-container">
-          <img className="profile-picture" alt="lollicup logo" src="../images/lollicup/Etc/lollicup-logo.png"/>
+          <img className="profile-picture" alt="lollicup logo" src="./images/lollicup/Etc/lollicup-logo.png"/>
           <div className="about-text-area">
             <h1>Our Mission</h1>
             <p>To deliver an exceptional dining experience by creating an eatery that is fun, fresh, and first-rate. <br></br>

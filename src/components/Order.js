@@ -33,7 +33,6 @@ export default class Order extends Component {
       </div>
 
       </div>
-      <br/>
       <Link to="/DrinkBase">
       <p className="btn">Add Drink</p>
       </Link>
@@ -43,6 +42,22 @@ export default class Order extends Component {
       </form>
       </div>
       </div>
+      <div className="col-25">
+              <div className="container">
+                <h4>Cart
+      <span className="price" style={{ color: "black" }}>
+                    <i className="fa fa-shopping-cart"></i>
+                    <b>4</b>
+                  </span>
+                </h4>
+                <p style={{ paddingTop: "10px" }}><a href="#" style={{ color: "blue" }}>Mango Green Tea</a> <span className="price">$5</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Thai Tea</a> <span className="price">$5</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Black Tea</a> <span className="price">$3</span></p>
+                <p><a href="#" style={{ color: "blue" }}>Oolong Milk Tea</a> <span className="price">$4</span></p>
+                <hr />
+                <p>Total <span class="price" style={{ color: "black" }}><b>$17</b></span></p>
+              </div>
+            </div>
       </div>
       </div>
       </section>
