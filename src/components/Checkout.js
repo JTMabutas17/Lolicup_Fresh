@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 export default class Checkout extends Component {
+  received(){alert("Order Received!");}
   render() {
     return (
       <section id="checkout">
@@ -68,7 +69,7 @@ export default class Checkout extends Component {
       </label>
                   <br />
                   <Link to="/Home">
-                    <p className="btn" onclick="myFunction()">Finalize Order</p>
+                    <p className="btn" onClick={this.received}>Finalize Order</p>
                   </Link>
                 </form>
               </div>
