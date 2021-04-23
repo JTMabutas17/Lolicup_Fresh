@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Lolicup_Fresh/static/css/main.e8986148.chunk.css",
-    "main.js": "/Lolicup_Fresh/static/js/main.3c91139e.chunk.js",
-    "main.js.map": "/Lolicup_Fresh/static/js/main.3c91139e.chunk.js.map",
+    "main.js": "/Lolicup_Fresh/static/js/main.681739ea.chunk.js",
+    "main.js.map": "/Lolicup_Fresh/static/js/main.681739ea.chunk.js.map",
     "runtime-main.js": "/Lolicup_Fresh/static/js/runtime-main.70978c61.js",
     "runtime-main.js.map": "/Lolicup_Fresh/static/js/runtime-main.70978c61.js.map",
     "static/css/2.3b8df3f8.chunk.css": "/Lolicup_Fresh/static/css/2.3b8df3f8.chunk.css",
     "static/js/2.f8c7059b.chunk.js": "/Lolicup_Fresh/static/js/2.f8c7059b.chunk.js",
     "static/js/2.f8c7059b.chunk.js.map": "/Lolicup_Fresh/static/js/2.f8c7059b.chunk.js.map",
     "index.html": "/Lolicup_Fresh/index.html",
-    "precache-manifest.2cfa852fbbec8fe59c65b8af0e6376a3.js": "/Lolicup_Fresh/precache-manifest.2cfa852fbbec8fe59c65b8af0e6376a3.js",
+    "precache-manifest.1b40110d6dffc4aee9fe3c001a6b35ce.js": "/Lolicup_Fresh/precache-manifest.1b40110d6dffc4aee9fe3c001a6b35ce.js",
     "service-worker.js": "/Lolicup_Fresh/service-worker.js",
     "static/css/2.3b8df3f8.chunk.css.map": "/Lolicup_Fresh/static/css/2.3b8df3f8.chunk.css.map",
     "static/css/main.e8986148.chunk.css.map": "/Lolicup_Fresh/static/css/main.e8986148.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3b8df3f8.chunk.css",
     "static/js/2.f8c7059b.chunk.js",
     "static/css/main.e8986148.chunk.css",
-    "static/js/main.3c91139e.chunk.js"
+    "static/js/main.681739ea.chunk.js"
   ]
 }

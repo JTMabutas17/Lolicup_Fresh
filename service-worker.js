@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Lolicup_Fresh/precache-manifest.2cfa852fbbec8fe59c65b8af0e6376a3.js"
+  "/Lolicup_Fresh/precache-manifest.1b40110d6dffc4aee9fe3c001a6b35ce.js"
 );
 
 self.addEventListener('message', (event) => {

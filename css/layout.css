@@ -852,9 +852,6 @@ a .btn {
 /* i. Locations Section
 /* ------------------------------------------------------------------ */
 .Webpage{
-  /* display:flex; */
-  margin: 0 auto;
-  justify-content: center;
   align-items: center;
   align-content: center;
 }
