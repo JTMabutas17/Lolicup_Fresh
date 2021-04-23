@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+
 export default class Navbar extends Component {
     render() {
         return (
@@ -8,7 +9,7 @@ export default class Navbar extends Component {
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                     <ul id="nav" className="nav">
-                        <li><Link to="/Home"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px" title="Home Page"/></Link></li>
+                        <li><Link to="/Home"><img src={require("./images/logo.png")} alt="lollicup logo" width="400px" height="70px" title="Home Page"/></Link></li>
                         <li>
                             <a>Menu</a>
                             <ul>
