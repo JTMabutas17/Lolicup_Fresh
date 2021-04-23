@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Lolicup_Fresh/static/css/main.e8986148.chunk.css",
+    "main.js": "/Lolicup_Fresh/static/js/main.81846cb5.chunk.js",
+    "main.js.map": "/Lolicup_Fresh/static/js/main.81846cb5.chunk.js.map",
+    "runtime-main.js": "/Lolicup_Fresh/static/js/runtime-main.70978c61.js",
+    "runtime-main.js.map": "/Lolicup_Fresh/static/js/runtime-main.70978c61.js.map",
+    "static/css/2.3b8df3f8.chunk.css": "/Lolicup_Fresh/static/css/2.3b8df3f8.chunk.css",
+    "static/js/2.4895b231.chunk.js": "/Lolicup_Fresh/static/js/2.4895b231.chunk.js",
+    "static/js/2.4895b231.chunk.js.map": "/Lolicup_Fresh/static/js/2.4895b231.chunk.js.map",
+    "index.html": "/Lolicup_Fresh/index.html",
+    "precache-manifest.37bea00d5cd78fe0392684cfd831049e.js": "/Lolicup_Fresh/precache-manifest.37bea00d5cd78fe0392684cfd831049e.js",
+    "service-worker.js": "/Lolicup_Fresh/service-worker.js",
+    "static/css/2.3b8df3f8.chunk.css.map": "/Lolicup_Fresh/static/css/2.3b8df3f8.chunk.css.map",
+    "static/css/main.e8986148.chunk.css.map": "/Lolicup_Fresh/static/css/main.e8986148.chunk.css.map",
+    "static/js/2.4895b231.chunk.js.LICENSE.txt": "/Lolicup_Fresh/static/js/2.4895b231.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70978c61.js",
+    "static/css/2.3b8df3f8.chunk.css",
+    "static/js/2.4895b231.chunk.js",
+    "static/css/main.e8986148.chunk.css",
+    "static/js/main.81846cb5.chunk.js"
+  ]
+}
