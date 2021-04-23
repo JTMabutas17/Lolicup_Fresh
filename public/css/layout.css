@@ -1,0 +1,855 @@
+/* ------------------------------------------------------------------ */
+/* a. Navbar Stlyles
+/* ------------------------------------------------------------------ */
+#nav li a {
+  display:block;
+  padding:0;
+  text-decoration:none;
+  width:auto; /* this is the width of the menu items */
+  line-height:35px; /* this is the hieght of the menu items */
+  color:#ffffff; /* list item font color */
+}
+#nav li li a {font-size:80%;} /* smaller font size for sub menu items */
+#nav li:hover {background:#003f20;} /* highlights current hovered list item and the parent list items when hovering over sub menues */
+#nav ul {
+  position:absolute;
+  padding:0;
+  left:0;
+  display:none; /* hides sublists */
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {display:block;} /* shows sublist on hover */
+#nav li li:hover ul {
+  display:block; /* shows sub-sublist on hover */
+  margin-left:200px; /* this should be the same width as the parent list item */
+  margin-top:-35px; /* aligns top of sub menu with top of list item */
+}
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+   background-color: #087f23;
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { 
+  display: none; 
+  background-color:#4CAF50;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: auto;
+  display: inline-block;
+}
+
+ul#nav li a {
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+
+ul#nav li a:hover {
+   color:rgb(151, 151, 151);
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
+
+
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+#header {
+  color:black;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(97, 97, 97, 0.5),rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  /* background-image: url(../images/header-background.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+#header .banner-text { 
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#header .banner-text h1 {  
+  font-size: 90px;
+  letter-spacing: -2px;
+  margin: 0 auto 0 auto;
+}
+
+#header .banner-text h3 {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+/* scrolldown link */
+#header .scrolldown a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  /*color: #fff;*/
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  /*color: #fff;*/
+  border-radius: 100%;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+.about-container {
+   /* min-height: 100vh; */
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+   background-color: rgba(128, 128, 128, 0.466);
+   border-radius: 10px;
+   /* columns: 2; */
+ }
+ 
+ .profile-picture {
+   position: center;
+   width: 25%;
+   height: 25%;
+   border-radius: 50%;
+ }
+ .about-text-area {
+   text-align: left;
+   width: 50%;
+   margin-left: 24px;
+ }
+ 
+ .about-text-area p {
+    color: white;
+    font-size: 16px;
+ }
+
+ .about-text-area h1 {
+  color: white;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* e. Menu Section
+/* ------------------------------------------------------------------ */
+.menus-header {
+   padding-top: 65px;
+   padding-bottom: 20px;
+   text-align: center;
+   font-size: 6vw;
+}
+
+.menu-container {
+   margin: 0;
+   /* min-height: 60vh; */
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#menu .container {
+  float: left;
+    text-align: center;
+    font-size: 2vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin: 10vmin; */
+   overflow: hidden;
+}
+#menu .container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+#menu .container .card:hover{
+   cursor: pointer;
+   color: white;
+   background-color: gray;
+}
+
+#menu .container .active{
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+}
+
+.btn-container {
+  margin: 0;
+  padding-top: 20px;
+  /* min-height: 60vh; */
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* f. Order Section
+/* ------------------------------------------------------------------ */
+.registrationForm-container{
+   padding-top: 80px;
+   display: flex;
+}
+
+.order-container{
+   padding-top: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#checkout .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+#checkout input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+a .btn {
+  color: white;
+  font-size: 17px;
+  background-color: #4CAF50;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* g. Checkout Section
+/* ------------------------------------------------------------------ */
+.checkout-container{
+   padding-top: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#checkout .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+a .btn {
+  color: white;
+  font-size: 17px;
+  background-color: #4CAF50;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* h. SignIn Section
+/* ------------------------------------------------------------------ */
+.signIn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url(../images/lollicup/about-banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#signin button {
+    height: 60px;
+    width: 200px;
+    margin: 0 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer
+  }
+
+  #signin button:first-child:hover{
+    background: linear-gradient(90deg, #03f45f,#afafaf);
+    background-size: 400%;
+
+  }
+  #signin button:last-child:hover{
+    background: linear-gradient(90deg, #14ff6e,#afafaf);
+    background-size: 400%; 
+  }
+
+  #signin button:first-child:before,
+  button:last-child:before{
+    content: '';
+    position: relative;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  #signin button:first-child:hover:before,
+  button:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+
+  #signin button:hover {
+    /* color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  } 
+
+  #signin @keyframes glow{
+    0%{background-position 0%;}
+    100%{background-position: 400%;}
+  }
+
+  #signin img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px 0px 20px 0px; 
+  }
+
+  #signin img:hover{
+    opacity: 0.75;
+    animation: glow 4s;
+  }
+
+  .registrationForm{
+      background: linear-gradient(#ffffff,#ffffff);
+      display: inline-block;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 20px 100px 10px 100px; /* padding: top right bottom left */
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px 3px #4e4e4e;
+  }
+
+  .registrationForm-container{
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #signin .textBox{
+    font-family: robotLight;
+    font-size: x-large;
+  }
+
+  #signin @font-face {
+    font-family: robotLight;
+    src: url(Roboto-Light.ttf);
+    font-weight: bold;
+  }
+
+  #signin .tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+}
+
+#signin .tooltip .right {
+    min-width:50px; 
+    max-width:100px;
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:5px 5px;
+    color:#444444;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.75s;
+}
+
+#signin .tooltip:hover .right {
+    visibility:visible; opacity:0.75;
+}
+
+#signin .tooltip .right i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+
+#signin .tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+/* ------------------------------------------------------------------ */
+/* h. CreateAccount Section
+/* ------------------------------------------------------------------ */
+.create-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url(../images/lollicup/about-banner.jpg);
+    width: auto;
+    height: auto;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#create button {
+    height: 60px;
+    width: 200px;
+    margin: 0 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer
+  }
+
+  #create button:first-child:hover{
+    background: linear-gradient(90deg, #03f45f,#afafaf);
+    background-size: 400%;
+
+  }
+  #create button:last-child:hover{
+    background: linear-gradient(90deg, #14ff6e,#afafaf);
+    background-size: 400%;
+  }
+  
+  #create button:first-child:before,
+  button:last-child:before{
+    content: '';
+    position: relative;
+    background: inherit;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 50px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  #create button:first-child:hover:before,
+  button:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+
+  #create button:hover {
+    /* color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4); */
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  } 
+
+  #create @keyframes glow{
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
+
+  #create img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px 0px 20px 0px; 
+  }
+
+  #create img:hover{
+    opacity: 0.75;
+    animation: glow 4s;
+  }
+
+  .createForm{
+      background: linear-gradient(#ffffff,#ffffff);
+      display: inline-block;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding: 65px 100px 10px 100px; /* padding: top right bottom left */
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 3px 3px #4e4e4e;
+  }
+
+  .createForm-container{
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #create .textBox{
+    font-family: robotLight;
+    font-size: x-large;
+  }
+
+  #create @font-face {
+    font-family: robotLight;
+    src: url(Roboto-Light.ttf);
+    font-weight: bold;
+  }
+
+  #create .tooltip {
+    display:inline-block;
+    position:relative;
+    text-align:left;
+}
+
+#create .tooltip .right {
+    min-width:50px; 
+    max-width:100px;
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -50%);
+    padding:5px 5px;
+    color:#444444;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    visibility:hidden; opacity:0; transition:opacity 0.75s;
+}
+
+#create .tooltip:hover .right {
+    visibility:visible; opacity:0.75;
+}
+
+#create .tooltip .right i {
+    position:absolute;
+    top:50%;
+    right:100%;
+    margin-top:-12px;
+    width:12px;
+    height:24px;
+    overflow:hidden;
+}
+
+#create .tooltip .right i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+/* scrolldown link */
+.scrolldown a {
+  position: fixed;
+  bottom: 30px;
+  left: 95%;
+  top: 90%;
+  margin-left: -29px;
+  /*color: #fff;*/
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  /*color: #fff;*/
+  border-radius: 100%;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.scrolldown a { color: #00cc00 ; }
+.scrolldown a:hover { color: #46ff46a4 ; }
+
+/* slides */
+.slideshow {
+  padding-top: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 960px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+
+  height: 400px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+
+/* 
+  Footer
+ */
+ .footer-container {
+   position: relative;
+   bottom: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
