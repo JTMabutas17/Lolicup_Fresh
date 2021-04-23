@@ -170,44 +170,15 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
    margin-left: 24px;
  }
  
- .about-text-area p, h1 {
+ .about-text-area p {
     color: white;
     font-size: 16px;
  }
 
-
-/* ------------------------------------------------------------------ */
-/* d. Abilities Section
-/* ------------------------------------------------------------------ */
-.abilities-header {
-   padding-top: 65px;
-   text-align: center;
-   font-size: 6vw;
+ .about-text-area h1 {
+  color: white;
 }
 
-.abilities-container {
-   margin-bottom: 2vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;  
- }
- .ability-picture {
-   position: center;
-   width: 16vw;
-   height: 16vw;
-   border-radius: 50%;
- }
-
- .abilities-text-area {
-   background-color: white;
-   width: 50%;
-   margin-left: 24px;
- }
- 
- .abilities-text-area p {
-    font-size: 16px;
-   color: gray;
- }
 
 /* ------------------------------------------------------------------ */
 /* e. Menu Section
@@ -259,7 +230,7 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
 
 .btn-container {
   margin: 0;
-  padding-top: 40px;
+  padding-top: 20px;
   /* min-height: 60vh; */
   font-family: sans-serif;
   display: flex;
