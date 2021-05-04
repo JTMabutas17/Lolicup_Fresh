@@ -39,11 +39,11 @@ export default class DrinkBase extends Component {
            <form>    
                 <div class = "textBox">
                     <label for="sweetness" id="sweetnessLabel">Sweetness Level:</label>
-                    <input type="text" id="sweetness" name="sweetness" value="50%" disabled="true" /> 
+                    <input type="text" id="sweetness" name="sweetness" placeholder="50%" /> 
                     <label for="icelevel" id="icelevel">Ice Level: </label>
-                    <input type="text" id="icelevel" name="icelevel" value="25%" disabled="true" /> 
+                    <input type="text" id="icelevel" name="icelevel" placeholder="25%" /> 
                     <label for="hotorcold" id="hotorcold">Hot or Cold: </label>
-                    <input type="text" id="hotorcold" name="hotorcold" value="Hot" disabled="true"/> 
+                    <input type="text" id="hotorcold" name="hotorcold" placeholder="Hot" /> 
                 </div> 
             </form>
           </div>

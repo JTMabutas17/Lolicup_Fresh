@@ -15,22 +15,22 @@ export default class Checkout extends Component {
                     <div className="col-50">
                       <h3>Billing Address</h3>
                       <label for="fname"><i className="fa fa-user"></i> Full Name</label>
-                      <input type="text" id="fname" name="firstname" value="John M. Doe" disabled />
+                      <input type="text" id="fname" name="firstname" placeholder="John M. Doe"  />
                       <label for="email"><i className="fa fa-envelope"></i> Email</label>
-                      <input type="text" id="email" name="email" value="john@example.com" disabled />
+                      <input type="text" id="email" name="email" placeholder="john@example.com"  />
                       <label for="adr"><i className="fa fa-address-card-o"></i> Address</label>
-                      <input type="text" id="adr" name="address" value="1234 San Gabriel Blvd" disabled />
+                      <input type="text" id="adr" name="address" placeholder="1234 San Gabriel Blvd"  />
                       <label for="city"><i className="fa fa-institution"></i> City</label>
-                      <input type="text" id="city" name="city" value="San Gabriel" disabled />
+                      <input type="text" id="city" name="city" placeholder="San Gabriel"  />
 
                       <div className="row">
                         <div className="col-50">
                           <label for="state">State</label>
-                          <input type="text" id="state" name="state" value="CA" disabled />
+                          <input type="text" id="state" name="state" placeholder="CA"  />
                         </div>
                         <div className="col-50">
                           <label for="zip">Zip</label>
-                          <input type="text" id="zip" name="zip" value="10001" disabled />
+                          <input type="text" id="zip" name="zip" placeholder="10001"  />
                         </div>
                       </div>
                     </div>
@@ -45,20 +45,20 @@ export default class Checkout extends Component {
                         <i className="fa fa-cc-discover" style={{ color: "orange" }}></i>
                       </div>
                       <label for="cname">Name on Card</label>
-                      <input type="text" id="cname" name="cardname" value="John More Doe" disabled />
+                      <input type="text" id="cname" name="cname" placeholder="John More Doe"  />
                       <label for="ccnum">Credit card number</label>
-                      <input type="text" id="ccnum" name="cardnumber" value="1111-2222-3333-4444" disabled />
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"  />
                       <label for="expmonth">Exp Month</label>
-                      <input type="text" id="expmonth" name="expmonth" value="September" disabled />
+                      <input type="text" id="expmonth" name="expmonth" placeholder="September"  />
 
                       <div className="row">
                         <div className="col-50">
                           <label for="expyear">Exp Year</label>
-                          <input type="text" id="expyear" name="expyear" value="2018" disabled />
+                          <input type="text" id="expyear" name="expyear" placeholder="2018"  />
                         </div>
                         <div className="col-50">
                           <label for="cvv">CVV</label>
-                          <input type="text" id="cvv" maxlength="3" min="0" name="cvv" value="352" disabled />
+                          <input type="text" id="cvv" maxlength="3" min="0" name="cvv" placeholder="352"  />
                         </div>
                       </div>
                     </div>

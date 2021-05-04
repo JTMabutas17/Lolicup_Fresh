@@ -14,20 +14,20 @@ export default class Order extends Component {
       <div className="col-50">
       <h3>Order Form</h3>
       <label for="base">Drink Base</label>
-      <input type="text" id="base" name="drinkBase" value="Select a Drink" disabled />
+      <input type="text" id="base" name="drinkBase" placeholder="Select a Drink"  />
       <label for="flavor">Drink Flavor</label>
-      <input type="text" id="flavor" name="drinkFlavor" value="Select a Flavor" disabled/>
+      <input type="text" id="flavor" name="drinkFlavor" placeholder="Select a Flavor" />
       <label for="toppings">Toppings</label>
-      <input type="text" id="toppings" name="drinkToppings" value="Select a Topping" disabled />
+      <input type="text" id="toppings" name="drinkToppings" placeholder="Select a Topping"  />
 
       <div className="row">
       <div className="col-50">
       <label for="sweet">Sweetness Level</label>
-      <input type="text" id="sweet" name="drinkSweet" value="Select Sweetness Level" disabled />
+      <input type="text" id="sweet" name="drinkSweet" placeholder="Select Sweetness Level"  />
       </div>
       <div className="col-50">
       <label for="ice">Ice Level</label>
-      <input type="text" id="ice" name="drinkIce" value="Select Ice Level" disabled />
+      <input type="text" id="ice" name="drinkIce" placeholder="Select Ice Level"  />
       </div>
       </div>
       </div>
