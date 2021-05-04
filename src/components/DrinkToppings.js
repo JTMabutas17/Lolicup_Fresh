@@ -5,32 +5,32 @@ export default class DrinkToppings extends Component {
   render() {
     return (
       <section id="menu">
-        <h1 className="menus-header">Step 3: Drink Toppings</h1>
+        <h1 className="menus-header">Step 3: Drink Toppings (+ $0.75)</h1>
         <div className="menu-container">
           <div className="container">
             <div className="card">
               <img src="images/lollicup/Add-Ons/boba-honey.png" />
-              <p>Boba Honey</p>
+              <p>Honey Boba</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Add-Ons/boba-mini.png" />
-              <p>Boba Mini</p>
+              <p>Mini Boba</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Add-Ons/jelly-aloevera.png" />
-              <p>Jelly Aloevera</p>
+              <p>Aloevera Jelly</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Add-Ons/jelly-assortedyogo.png" />
-              <p>Jelly Assorted Yogo</p>
+              <p>Assorted Yogo Jelly</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Add-Ons/jelly-coconut-mango.png" />
-              <p>Jelly Coconut Mango</p>
+              <p>Coconut Mango Jelly</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Add-Ons/jelly-grass.png" />
-              <p>Jelly Grass</p>
+              <p>Grass Jelly</p>
             </div>
           </div>
         </div>

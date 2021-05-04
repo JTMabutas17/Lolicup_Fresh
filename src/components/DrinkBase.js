@@ -9,28 +9,28 @@ export default class DrinkBase extends Component {
         <div className="menu-container">
           <div className="container">
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/black-tea.png" />
-              <p>Black Tea</p>
+              <img src="images/lollicup/Drinks/black-tea.png" />
+              <p>Black Tea <br /> Base price: $4 </p>
             </div>
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/flavored-milk.png" />
-              <p>Flavored Milk</p>
+              <img src="images/lollicup/Drinks/flavored-milk.png" />
+              <p>Flavored Milk <br /> Base price: $5 </p>
             </div>
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/green-tea.png" />
-              <p>Green Tea</p>
+              <img src="images/lollicup/Drinks/green-tea.png" />
+              <p>Green Tea <br /> Base price: $3 </p>
             </div>
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/iced-coffee.png" />
-              <p>Iced Coffee</p>
+              <img src="images/lollicup/Drinks/iced-coffee.png" />
+              <p>Iced Coffee <br /> Base price: $6 </p>
             </div>
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/juice.png" />
-              <p>Juice</p>
+              <img src="images/lollicup/Drinks/juice.png" />
+              <p>Juice <br /> Base price: $3 </p>
             </div>
             <div className="card">
-              <img src="%PUBLIC_URL%/images/lollicup/Drinks/milk-tea.png" />
-              <p>Milk Tea</p>
+              <img src="images/lollicup/Drinks/milk-tea.png" />
+              <p>Milk Tea <br /> Base price: $4 </p>
             </div>
           </div>
         </div>
@@ -47,10 +47,6 @@ export default class DrinkBase extends Component {
                 </div> 
             </form>
           </div>
-
-          <p className="scrolldown">
-               <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
-            </p>
 
         <div className="btn-container">
           <Link to="/DrinkFlavor">

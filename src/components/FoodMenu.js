@@ -10,33 +10,27 @@ export default class FoodMenu extends Component {
           <div className="container">
             <div className="card">
               <img src="images/lollicup/Food/chicken-wings.jpg" />
-              <p>Chicken Wings</p>
-              <p>$5</p>
+              <p>Chicken Wings <br /> $5 </p>
             </div>
             <div className="card ">
               <img src="images/lollicup/Food/fried-calamari.jpg" />
-              <p>Fried Calamari</p>
-              <p>$7</p>
+              <p>Fried Calamari <br /> $7 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Food/fried-tofu.jpg" width="500px" height="500px" />
-              <p>Fried Tofu</p>
-              <p>$4</p>
+              <p>Fried Tofu <br /> $4 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Food/popcorn-chicken.png" width="500px" height="500px"/>
-              <p>Popcorn Chicken</p>
-              <p>$6</p>
+              <p>Popcorn Chicken <br /> $6 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Food/sandwich.jpg" width="500px" height="500px"/>
-              <p>Sandwiches</p>
-              <p>$8</p>
+              <p>Sandwiches <br /> $8 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Food/soy-pudding.jpg" width="500px" height="500px" />
-              <p>Soy Pudding</p>
-              <p>$3</p>
+              <p>Soy Pudding <br /> $3 </p>
             </div>
           </div>
         </div>

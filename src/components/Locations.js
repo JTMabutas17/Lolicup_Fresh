@@ -4,8 +4,7 @@ export default class Abilities extends Component {
       return (
          <section id="locations">
             <div className="Webpage">
-               <h1 className="locations-header">Locations</h1>
-
+            <h1 className="locations-header">Locations</h1>
                {/*LA County "row"*/}
                <div class="Row">
                   <div class="Column2">LA County</div>
@@ -23,7 +22,6 @@ export default class Abilities extends Component {
                      </div>
                      <div class="align-top">
                         <div class="phone mg-right-10">Phone:</div>
-
                         <div>
                            <div class="number">(323) 477-1571</div>
                         </div>
@@ -132,7 +130,6 @@ export default class Abilities extends Component {
                   <div class="Column">
                      <div class="location">
                         <span> Los Cerritos Center (Kiosk) - Coming Soon!</span>
-                        {/*<span style="font-style: italic; color: #d54000;"> Coming Soon! </span>*/}
                      </div>
                      <div class="address">
                         <div class="street">905 Los Cerritos Ctr</div>
@@ -155,13 +152,10 @@ export default class Abilities extends Component {
                      </div>
                   </div>
                </div>
-
-
                {/*Orange County "row"*/}
                <div class="Row">
                   <div class="Column2">Orange County</div>
                </div>
-
                {/*Brea Mall and Fountain Valley locations "row"*/}
                <div class="Row">
                   <div class="Column">
@@ -231,16 +225,11 @@ export default class Abilities extends Component {
                      </div>
                   </div>
                </div>
-
-               {/*Westminster location "row"*/}
-
-
                {/*San Bernandino and San Diego County "row"*/}
                <div class="Row">
                   <div class="Column2">San Bernardino County</div>
                   <div class="Column2">San Diego County</div>
                </div>
-
                {/*Ontario Mill and Oceanside locations "row"*/}
                <div class="Row">
                   <div class="Column">

@@ -24,7 +24,7 @@ export default class CreateAccount extends Component {
     var allLabels = [usernameLabel, firstNameLabel, lastNameLabel, passwordLabel, confirmPasswordLabel, dateOfBirthLabel];
     for(var i = 0; i < allInputs.length; i++) {
         allLabels[i].style.color = "black";
-        if(allInputs[i].value == "" || allInputs[i].value.length == 0) {
+        if(allInputs[i].value.length == 0) {
             allLabels[i].style.color = "red";
             success = false;
         }
@@ -33,14 +33,7 @@ export default class CreateAccount extends Component {
         alert("Succeeded in creating account.");
         return false;
     }
-    else {
-      alert("Enter required fields.");
-      window.location.reload();
-      for(var i = 0; i < allInputs.length; i++) {
-        allInputs[i].value = "";
-      }
-    }
-  
+    else alert("Enter required fields.");
   }
   render() {
     return (
@@ -66,10 +59,13 @@ export default class CreateAccount extends Component {
                     <input type="date" id="dateOfBirth" name="dateOfBirth" /> 
                 </div>
                 <br/>
-                <button onClick={this.checkForm}><Link to="/Home">Create</Link></button>  
+                <button onClick={this.checkForm}><Link to="/CreateAccount">Create</Link></button>  
             </form>
         </div>
         </div>
+        <p className="scrolldown">
+                  <a className="smoothscroll" href="#create"><i className="icon-up-circle"></i></a>
+               </p>
         </div>
       </section>
     );

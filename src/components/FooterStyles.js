@@ -5,7 +5,7 @@ background: green;
 position: fixed;
 bottom: 0;
 width: 100%;
-height: 7%;
+height: 40px;
 
 
 @media (max-width: 1000px) {
