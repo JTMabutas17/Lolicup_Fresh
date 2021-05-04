@@ -2,7 +2,7 @@
 #### To ensure you can run the website locally, please follow these steps
 ---
 1. Open your web browser and paste the link into your search bar
-    * Should you need the link you can find the repository [here] (https://github.com/JTMabutas17/CECS448.git "project 4")
+    * Should you need the link you can find the repository [here] (https://github.com/JTMabutas17/Lolicup_Fresh.git "project 4")
 2. Upon navigating to the repository, look for the "Code" button which looks like as follows: ![Code button](https://i.gyazo.com/6824b3f363807ca543fd469da472d0f2.png)
     * You will see the drop down menu from which you select "Download ZIP"
         * In order to unzip said file you will need a program like winrar or 7zip downloaded on your computer
