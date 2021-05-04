@@ -65,7 +65,7 @@ export default class Checkout extends Component {
 
                   </div>
                   <label>
-                    <input type="checkbox" checked="checked" name="sameadr" /> Shipping address same as billing
+                    <input type="checkbox" name="sameadr" /> Shipping address same as billing
       </label>
                   <Link to="/">
                     <p className="btn" onClick={this.received}>Finalize Order</p>
